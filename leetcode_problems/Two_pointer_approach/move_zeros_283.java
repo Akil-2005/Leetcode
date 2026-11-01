@@ -1,5 +1,6 @@
 class move_zeros_283{
-    public static int[] akil(int[] arr){
+    //OPTIMAL SOLUTION.
+    /*public static int[] akil(int[] arr){
         int n=arr.length;
         int left=0;
         for(int right=0;right<n;right++){
@@ -11,7 +12,9 @@ class move_zeros_283{
             }
         }
         return arr;
-    }
+    }*/
+
+
     public static void main(String[] args) {
         int[] arr={0,1,0,3,12};
         int[] res=akil(arr);
